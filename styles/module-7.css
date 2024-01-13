@@ -1,0 +1,44 @@
+/* Task 1 */
+
+.task-1 {
+    width: 100%;
+}
+
+.task1-container {
+    display: flex;
+    gap: 12px;
+    height: 600px;
+}
+
+.left {
+    background-color: #d2d1d3;
+    border-radius: 16px;
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.right {
+    background-color: #f5f4dc;
+    border-radius: 16px;
+    padding: 16px;
+    flex-grow: 3;
+}
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width:576px) {
+    .task1-container {
+        flex-direction: column;
+
+    }
+
+    .left {
+        height: 25%;
+    }
+
+    .right {
+        height: 75%;
+    }
+}
